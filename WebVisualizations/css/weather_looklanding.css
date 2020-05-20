@@ -1,0 +1,130 @@
+#navbarDropdownMenuLink {
+    color: darkslategrey;
+}
+
+#ComparisonNavItem {
+    color: darkslategrey;
+}
+
+#DataNavItem {
+    color: darkslategrey;
+}
+
+#totalnavbar {
+    background-color: lightseagreen;
+} 
+
+#navbar-title-item {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-radius: 2px;
+    background-color: lightseagreen;
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+#maxtempmain {
+    max-width: 300px;
+    padding: 5px;
+    border-style: none;
+}
+
+.caption {
+    padding-bottom: 45px;
+    padding-top: 70px;
+    border-bottom-style: solid;
+    border-color: darkgray;
+    color: lightseagreen;
+}
+
+.thumbnails {
+    padding-top: 70px;
+    max-width: 475px;
+}
+
+.thumbnail {
+    padding-top: 70px
+}
+
+.thumbrow {
+    float: left;
+    width: 50%;
+    padding: 5px;
+    border-style: none;
+  }
+
+.thumbrowtwo {
+    float: left;
+    width: 50%;
+    padding: 5px;
+    border-style: none;
+}
+
+#maxtempthumbnail {
+    border-style: none;
+}
+
+#humiditythumbnail {
+    border-style: none;
+}
+
+#cloudinessthumbnail {
+    border-style: none;
+}
+
+#windspeedthumbnail {
+    border-style: none;
+}
+
+p {
+    margin-bottom: 40px;
+    color: darkslategray
+}
+
+body {
+    background-color: rgb(241, 241, 241)
+}
+
+.SummaryColumn {
+    background-color: white;
+    border-radius: 2px
+}
+
+.VizTableColumns {
+    background-color: white;
+    border-radius: 2px
+}
+
+#container {
+    background-color: rgb(241, 241, 241);
+}
+
+@media (max-width: 765px) {
+
+.thumbrow {
+    float: left;
+    width: 25%;
+    padding: 5px;
+    border-style: none;
+    }
+
+.thumbrowtwo {
+    float: left;
+    width: 25%;
+    padding: 5px;
+    border-style: none;
+}
+
+.caption {
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+.SummaryColumn {
+    padding-top: 75px;
+}
+
+}

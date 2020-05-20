@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <br>
+    <title>Lattitude vs. Max Temp</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../css/weather_lookmaxtemp.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light"> 
+      <a class="navbar-brand" id="navbar-title-item" href="C:\Users\peyto\OneDrive\Desktop\PREWORK_PSH\Homework\Week11\Web-Design-Challenge\WebVisualizations\html\weather_landing.html">Lattitude</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Plots
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="C:\Users\peyto\OneDrive\Desktop\PREWORK_PSH\Homework\Week11\Web-Design-Challenge\WebVisualizations\html\weather_maxtemp.html">Max Temperature</a>
+                  <a class="dropdown-item" href="C:\Users\peyto\OneDrive\Desktop\PREWORK_PSH\Homework\Week11\Web-Design-Challenge\WebVisualizations\html\weather_humidity.html">Humidity</a>
+                  <a class="dropdown-item" href="C:\Users\peyto\OneDrive\Desktop\PREWORK_PSH\Homework\Week11\Web-Design-Challenge\WebVisualizations\html\weather_cloudiness.html">Cloudiness</a>
+                  <a class="dropdown-item" href="C:\Users\peyto\OneDrive\Desktop\PREWORK_PSH\Homework\Week11\Web-Design-Challenge\WebVisualizations\html\weather_windspeed.html">Wind Speed</a>
+              </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="ComparisonNavItem" href="C:\Users\peyto\OneDrive\Desktop\PREWORK_PSH\Homework\Week11\Web-Design-Challenge\WebVisualizations\html\weather_comparisons.html">Comparison</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="DataNavItem" href="C:\Users\peyto\OneDrive\Desktop\PREWORK_PSH\Homework\Week11\Web-Design-Challenge\WebVisualizations\html\weather_data.html">Data</a>
+          </li>
+        </ul>
+      </div>
+  </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="SummaryColumn col-md-6">
+                <div class="caption">
+                    <h3>Max Temperature</h3>
+                </div>
+                <div class="thumbnail">
+                    <img src="https://nu.bootcampcontent.com/NU-Coding-Bootcamp/nu-chi-data-pt-02-2020-u-c/raw/master/Homework/11-Web/Instructions/Resources/assets/images/Fig1.png" alt="..." id="maxtempmain" ALIGN="top" class="img-thumbnail">
+                </div>
+                <div class="paragraphs" ALIGN="bottom">
+                    <p>When measuring against max temperature of location in our data,  we found there was a strong correlation.  The recored tempereature was higher in places that were near the equator or "0" degrees lattitude.</p>
+                </div>
+            </div>
+            <div class="VizTableColumns col-md-5">
+                <div class="caption" ALGIN="top">
+                    <h3>Visualizations</h3>
+                </div>
+                <div class="thumbnails">
+                    <div class="row">
+                        <div class="vizgroup thumbrow">
+                            <a class="image-link" href="C:\Users\peyto\OneDrive\Desktop\PREWORK_PSH\Homework\Week11\Web-Design-Challenge\WebVisualizations\html\weather_maxtemp.html">
+                                <img src="C:\Users\peyto\OneDrive\Desktop\PREWORK_PSH\Homework\Week11\Web-Design-Challenge\WebVisualizations\Resources\assets\images\Fig1.png" alt="maxtemp" id="maxtempthumbnail" ALIGN="left" class="img-thumbnail">
+                        </div>
+                        <div class="vizgroup thumbrow">
+                            <a class="image-link" href="C:\Users\peyto\OneDrive\Desktop\PREWORK_PSH\Homework\Week11\Web-Design-Challenge\WebVisualizations\html\weather_humidity.html"></a>
+                                <img src="C:\Users\peyto\OneDrive\Desktop\PREWORK_PSH\Homework\Week11\Web-Design-Challenge\WebVisualizations\Resources\assets\images\Fig2.png" alt="humidity" id="humiditythumbnail" ALIGN="right" class="img-thumbnail">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="vizgroup thumbrowtwo">
+                            <a class="image-link" href="C:\Users\peyto\OneDrive\Desktop\PREWORK_PSH\Homework\Week11\Web-Design-Challenge\WebVisualizations\html\weather_cloudiness.html">
+                                <img src="C:\Users\peyto\OneDrive\Desktop\PREWORK_PSH\Homework\Week11\Web-Design-Challenge\WebVisualizations\Resources\assets\images\Fig3.png" alt="cloudiness" id="cloudinessthumbnail" class="img-thumbnail">
+                        </div>
+                        <div class="vizgroup thumbrowtwo">
+                            <a class="image-link" href="C:\Users\peyto\OneDrive\Desktop\PREWORK_PSH\Homework\Week11\Web-Design-Challenge\WebVisualizations\html\weather_windspeed.html">   
+                                <img src="C:\Users\peyto\OneDrive\Desktop\PREWORK_PSH\Homework\Week11\Web-Design-Challenge\WebVisualizations\Resources\assets\images\Fig4.png" alt="windspeed" id="windspeedthumbnail" class="img-thumbnail">
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+  crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+  crossorigin="anonymous"></script>
+  
+
+</body>
+</html>
